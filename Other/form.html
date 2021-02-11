@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="../CSS/style.css">
+
+        <title>Работа с формами</title>
+
+    </head>
+
+    <body>
+
+        <div class="Page">
+
+            <div class="Header">
+
+                <h1 class="header-title">SPinF</h1>
+                <h2 class="header-subtitle">Step Polite in Future</h2>
+            </div>
+
+            <div class="nav">
+
+               <a class="nav-link" href="../other.html" alt="">Возврат</a>
+
+            </div>
+
+            <div class="img"></div>
+
+            <div class="content">
+                <h3 class="content-title">Форма</h3>
+
+                <div class="other-article">
+                    <h4 class="article-title">Создание первой формы</h4>
+                    <div class="article-date">09.02.2021</div>
+                </div>
+
+
+                <div class="form">
+
+                    <h2 class="form-title">Форма</h2>
+
+                    <form action="/" method="post">
+                        <div class="form-fieldset">
+                            <h3 class=form-legend-title>Контактная информация</h3>
+                            <div class="form-group">
+                                <label for="input_name">Ваше имя</label>
+                                <input class="form-input" type="text" name="name" id="input_name">
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-input" type="email" name="email" placeholder="Ваша почта">
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-input" type="tel" name="tel" placeholder="Ваш телефон">
+                            </div>
+                        </div>
+
+                        <div class="form-fieldset">
+                            <h3 class=form-legend-title>Пароль</h3>
+                            <div class="form-group">
+                                <input class="form-input" type="password" name="password" placeholder="Придумайте пароль">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-textarea" name="text" placeholder="О вас"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="photo">Фото</label>
+                            <input type="file" name="photo" id="photo">
+                        </div>
+
+                        <div class="form-group">
+                            <select name="city">
+                                <option>Рига</option>
+                                <option>Киев</option>
+                                <option>Одесса</option>
+                                <option>Львов</option>
+                                <option>Москва</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="male">Муж</label>
+                            <input type="radio" name="choose_male" id="male">
+
+                            <label for="female">Жен</label>
+                            <input type="radio" name="choose_male" id="female">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" id="rules_agree">
+                            <label for="rules_agree">Прочитал условия и согласен с ними</label>
+                        </div>
+
+                        <button class="btn" type="submit" disabled>Отправить</button>
+                        <button class="btn" type="reset">Очистить</button>
+                        <button type="button">S</button>
+                        <button type="button">P</button>
+                        <button type="button">i</button>
+                        <button type="button">n</button>
+                        <button type="button">F</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="footer">Just do it</div>
+
+        </div>
+
+    </body>
+
+</html>

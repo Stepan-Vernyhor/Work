@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+
+    background-image: url(../img/texture_1.jpg);
+}
+
+/* Page */
+
+.Page {
+    width: 900px;
+    margin: 20px auto;
+
+    border: 1px solid #000;
+}
+
+/* Header */
+.Header {
+    padding: 20px;
+    background: #078066;
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 30px;
+    text-align: center;
+
+    letter-spacing: 3px;
+
+    color: #e5fff9;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+
+    letter-spacing: 5px;
+
+    color: #000;
+}
+
+/* Navigation */
+
+.nav{
+    text-align: center;
+
+    background-color: #04614d;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 8px 20px;
+
+    text-decoration: none;
+
+    color: #e5fff9;
+}
+
+.nav-link:hover {
+    background-color: #024b3c;
+}
+
+.other-nav-link{
+    display: inline-block;
+    padding: 8px 20px;
+    text-align: center;
+
+    text-decoration: none;
+
+    color: #37af6d;
+}
+
+.other-nav-link:visited {
+    color: #af3773;
+}
+/* Imagine */
+
+.img{
+    width: 900px;
+    height: 600px;
+
+
+    background-image: url(../img/astronavt_kosmonavt_art_129529_1024x768.jpg);
+    background-size: 100% auto;
+}
+
+/* Content */
+
+.content{
+    padding: 20px;
+
+    background-color: #c8e8dd;
+}
+
+.content-title{
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: #1b66a7;
+}
+
+.content-text{
+    margin-bottom: 20px;
+}
+
+.read-more{
+    color: #2b9dff;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Article */
+
+.article{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #000;
+}
+
+.other-article{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.article-title{
+    margin: 0 0 5px;
+
+    font-size: 18px;
+    color: #f56c5e;
+}
+
+.article-date{
+    font-size: 12px;
+    color: #8c8989;
+}
+
+/* Footer */
+
+.footer{
+    padding: 20px;
+
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+
+    background-color: #078066;
+
+    color: #e5fff9;
+}
+
+/* Table */
+
+.table{
+    width: 100%;
+    border: 1px solid #094538;
+    border-collapse: collapse;
+}
+
+.table td{
+    padding: 5px 10px;
+    border: 1px solid #094538;
+}
+
+.td-class{
+    height: 30px;
+    width: 80px;
+}
+
+/* Form */
+
+.form{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+
+    background-color: #e3f4ee;
+}
+
+.form-title{
+    text-align: center;
+}
+.form-legend-title{
+    margin: 0 0 15px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-input{
+    display: block;
+    padding: 5px;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+    border: 1px solid #000;
+}
+
+.form-input:focus {
+    outline: none;
+
+    background-color: #5cb8ce;
+}
+
+.form-textarea{
+    width: 220px;
+    height: 150px;
+    padding: 5px;
+
+    font: 18px Arial, sans-serif;
+
+    border: 1px solid #000;
+    outline: 1px solid red;
+}
+
+.form-textarea:focus {
+    outline: none;
+
+    background-color: #5cb8ce;
+}
+
+.form-fieldset{
+    margin-bottom: 20px;
+    padding: 20px;
+
+    border: 1px solid #000;
+}
+
+/* Botton */
+
+.btn{
+    padding: 5px 10px;
+
+    background-color: #b2a64b;
+    border: 1px solid #79702c;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #79702c;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #554e1c;
+}
+
+.btn:disabled{
+    background-color: #444;
+    color: #eee;
+    cursor: not-allowed;
+
+    border: 1px solid #444;
+}

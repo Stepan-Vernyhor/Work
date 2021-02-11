@@ -1,0 +1,101 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.Header {
+
+    margin: 0;
+    padding: 0;
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 50px;
+    text-align: center;
+
+    letter-spacing: 6px;
+
+    color: #b9bce9;
+
+    background-image: url(../img/astronavt_kosmonavt_art_129529_1024x768.jpg);
+}
+
+/* Search */
+
+.search {
+    background-image: url(../img/texture_3.jpg);
+}
+.search input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #64698a;
+    border-radius: 5px;
+    outline: none;
+    background: #b9bce9;
+    color: #868688;
+}
+.search button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #64698a;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.search button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #b9bce9;
+}
+
+/* Link */
+
+.link{
+    text-decoration: none;
+}
+
+.enter{
+    text-align: center;
+
+    background-image: url(../img/texture_3.jpg);
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 30px;
+
+    text-decoration: none;
+
+    color: #b9bce9;
+}
+
+.nav-link:hover {
+    background-color: #64698a;
+}
+
+.nav-link-img{
+    display: inline-block;
+
+    text-decoration: none;
+}
