@@ -28,3 +28,16 @@ body{
     margin-top: 10px;
     height: 100px;
 }
+
+/* Col */
+
+.col{
+    padding: 0 10px;
+    flex-grow: 1;
+}
+
+/* Grid */
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
