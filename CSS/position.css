@@ -19,13 +19,21 @@ body {
     padding: 15px;
 
     background-color: #eee;
+
+    border: 2px solid #000;
+    border-right-color: red;
+    border-left-style: groove;
+    border-left-color: rgb(27, 104, 65);
+    border-left-width: 8px;
+    border-bottom-style: dotted;
+    border-bottom-width: 4px;
 }
 
 .modal-title{
     margin: 0;
 }
 
-/* Square */
+/* Squares */
 .square {
     width: 50px;
     height: 50px;
@@ -43,4 +51,171 @@ body {
     right: -15px;
     top: -5px;
     z-index: 2;
+}
+
+.square.link {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: -5px;
+
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+
+/* Fixed Square center */
+.square-fixed-1 {
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+
+    background-color: blue;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+/* Sq linkr f1 */
+.square-link-f1{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+
+    text-align: right;
+
+    text-decoration: none;
+}
+
+.square-link-f1:hover {
+    background-image: url(../img/texture_3.jpg);
+}
+
+
+/*sq fix f1-more */
+.square-fixed-1.black {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+
+    background-color: #419741;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+}
+.square-fixed-1.green {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+}
+.square-fixed-1.bla {
+    width: 6px;
+    height: 6px;
+    margin-top: 0;
+    margin-left: 0;
+
+    background-color: rgb(152, 46, 167);
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+}
+
+/* Squares fixed all */
+.square-fixed-2{
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+
+    background-color:blue;
+
+    position: fixed;
+    top: 50%;
+    left: 0;
+}
+
+.square-fixed-3{
+    width: 50px;
+    height: 50px;
+
+    background-color: blue;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.square-fixed-4{
+    width: 50px;
+    height: 50px;
+
+    background-color: blue;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.square-fixed-5{
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+
+    background-color:blue;
+
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+
+.square-fixed-6{
+    width: 50px;
+    height: 50px;
+
+    background-color: blue;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.square-fixed-7{
+    width: 50px;
+    height: 50px;
+
+    background-color: blue;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/* Back */
+
+.back {
+    width: 50px;
+    height: 25px;
+    margin-top: -25px;
+    margin-left: -25px;
+
+    background-image: url(../img/texture_3.jpg);
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.nav-link-img{
+    display: inline-block;
+    text-align: right;
+
+    text-decoration: none;
 }
