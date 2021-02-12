@@ -15,8 +15,14 @@ body {
     width: 500px;
     height: 300px;
     margin: 20px auto;
+    position: relative;
+    padding: 15px;
 
     background-color: #eee;
+}
+
+.modal-title{
+    margin: 0;
 }
 
 /* Square */
@@ -27,6 +33,14 @@ body {
     background-color: #000;
 
     position: absolute;
-    top: 0;
-    left: 0;
+    right: -10px;
+    top: -10px;
+    z-index: 1;
+}
+
+.square.red {
+    background-color: rgb(255, 0, 0);
+    right: -15px;
+    top: -5px;
+    z-index: 2;
 }
