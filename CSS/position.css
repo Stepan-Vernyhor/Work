@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+
+    background-image: #fff;
+}
+
+
+
+
+
+
+
+
+/* Position */
+/* Square */
+
+.square {
+    width: 50px;
+    height: 50px;
+
+    background-color: #000;
+}
