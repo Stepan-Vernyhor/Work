@@ -100,3 +100,10 @@ body{
 .btn:active {
     background-color: #36980d;
 }
+
+.nav-link-img{
+    display: inline-block;
+    text-align: right;
+
+    text-decoration: none;
+}
